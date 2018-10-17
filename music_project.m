@@ -1,5 +1,18 @@
 clear,clc;
 
+% Calculating Beats Per Minute Paramenters
+note_beat = '1/4';
+bpm = 120;
+time_signature = '3/4';
+
+notes_in_measure = str2num(time_signature)/str2num(note_beat);
+
+beat_time = 60/bpm;
+measure_time = notes_in_measure*beat_time;
+
+
+
+
 % Defining all the notes and their frequency
 
 F = [27.500,    29.1353,	30.8677,	32.7032,	34.6479,...	
@@ -117,12 +130,27 @@ AsBf7 = F(86);
 B7 = F(87);
 C8 = F(88);
 
-duration = 1;
-fs = 8e3;
-t = 0:1/fs:duration;
+duration = .5;
 
- for i = 25:88
-%     sound(sin(2*pi*F(i)*t));
-%     pause(duration)
-% end
+PlayNote(C7,1*duration)
+PlayNote(C7,1*duration)
+PlayNote(G7,1*duration)
+PlayNote(G7,1*duration)
+
+PlayNote(A7,1*duration)
+PlayNote(A7,1*duration)
+PlayNote(G7,2*duration)
+
+PlayNote(F7,1*duration)
+PlayNote(F7,1*duration)
+PlayNote(E7,1*duration)
+PlayNote(E7,1*duration)
+
+PlayNote(D7,1*duration)
+PlayNote(D7,1*duration)
+PlayNote(C7,2*duration)
+
+
+
+
 
