@@ -124,8 +124,99 @@ note = '1/8';
 bpm = 120;
 time_signature = '3/4';
 
-notes_in_measure = str2num(time_signature)/str2num(note);
-measure_time = notes_in_measure*beat_time;
 
-PlayNote(freq, note, time_signature, bpm)
+
+
+
+
+PlayNote(F4,'1/8', time_signature, bpm, 1)
+PlayNote(F4,'1/8', time_signature, bpm, 0)
+PlayNote(A4,'1/8', time_signature, bpm, 0)
+PlayNote(F4,'1/8', time_signature, bpm, 0)
+PlayNote(C5,'1/8', time_signature, bpm, 0)
+PlayNote(F4,'1/8', time_signature, bpm, 0)
+%
+PlayNote(F5,'1/8', time_signature, bpm, 0)
+PlayNote(E5,'1/16', time_signature, bpm, 0)
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+
+PlayNote(C5,'1/16', time_signature, bpm, 0)
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+PlayNote(C5,'1/16', time_signature, bpm, 0)
+PlayNote(AsBf4,'1/16', time_signature, bpm, 0)
+
+PlayNote(A4,'1/16', time_signature, bpm, 0)
+PlayNote(AsBf4,'1/16', time_signature, bpm, 0)
+PlayNote(A4,'1/16', time_signature, bpm, 0)
+PlayNote(G4,'1/16', time_signature, bpm, 0)
+%
+PlayNote(F4,'1/8', time_signature, bpm, 0)
+PlayNote(A4,'1/8', time_signature, bpm, 0)
+PlayNote(C5,'1/8', time_signature, bpm, 0)
+PlayNote(A4,'1/8', time_signature, bpm, 0)
+PlayNote(F5,'1/8', time_signature, bpm, 0)
+PlayNote(C5,'1/8', time_signature, bpm, 0)
+
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(C6,'1/16', time_signature, bpm, 0)
+PlayNote(AsBf5,'1/16', time_signature, bpm, 0)
+PlayNote(C6,'1/16', time_signature, bpm, 0)
+
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(C6,'1/16', time_signature, bpm, 0)
+PlayNote(AsBf5,'1/16', time_signature, bpm, 0)
+PlayNote(C6,'1/16', time_signature, bpm, 0)
+
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(C6,'1/16', time_signature, bpm, 0)
+PlayNote(AsBf5,'1/16', time_signature, bpm, 0)
+PlayNote(C6,'1/16', time_signature, bpm, 0)
+%
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(G5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(G5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(G5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+%
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(E5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(E5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(E5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+%7
+PlayNote(B4,'1/8', time_signature, bpm, 0)
+PlayNote(G4,'1/8', time_signature, bpm, 0)
+PlayNote(D5,'1/8', time_signature, bpm, 0)
+PlayNote(B4,'1/8', time_signature, bpm, 0)
+PlayNote(F5,'1/8', time_signature, bpm, 0)
+PlayNote(D5,'1/8', time_signature, bpm, 0)
+%8
+PlayNote(G5,'1/16', time_signature, bpm, 0)
+PlayNote(A5,'1/16', time_signature, bpm, 0)
+PlayNote(G5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+
+PlayNote(E5,'1/16', time_signature, bpm, 0)
+PlayNote(F5,'1/16', time_signature, bpm, 0)
+PlayNote(E5,'1/16', time_signature, bpm, 0)
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+
 
