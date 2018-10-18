@@ -1,17 +1,5 @@
 clear,clc;
 
-% Calculating Beats Per Minute Paramenters
-note_beat = '1/4';
-bpm = 120;
-time_signature = '3/4';
-
-notes_in_measure = str2num(time_signature)/str2num(note_beat);
-
-beat_time = 60/bpm;
-measure_time = notes_in_measure*beat_time;
-
-
-
 
 % Defining all the notes and their frequency
 
@@ -129,3 +117,15 @@ A7 = F(85);
 AsBf7 = F(86);
 B7 = F(87);
 C8 = F(88);
+
+
+% Calculating Beats Per Minute Paramenters
+note = '1/8';
+bpm = 120;
+time_signature = '3/4';
+
+notes_in_measure = str2num(time_signature)/str2num(note);
+measure_time = notes_in_measure*beat_time;
+
+PlayNote(freq, note, time_signature, bpm)
+
