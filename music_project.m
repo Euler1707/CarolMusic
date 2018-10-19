@@ -121,12 +121,8 @@ C8 = F(88);
 
 % Calculating Beats Per Minute Paramenters
 note = '1/8';
-bpm = 120;
+bpm = 70;
 time_signature = '3/4';
-
-
-
-
 
 
 PlayNote(F4,'1/8', time_signature, bpm, 1)
@@ -219,4 +215,8 @@ PlayNote(F5,'1/16', time_signature, bpm, 0)
 PlayNote(E5,'1/16', time_signature, bpm, 0)
 PlayNote(D5,'1/16', time_signature, bpm, 0)
 
+PlayNote(C5,'1/16', time_signature, bpm, 0)
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+PlayNote(C5,'1/16', time_signature, bpm, 0)
+PlayNote(AsBf4,'1/16', time_signature, bpm, 0)
 
