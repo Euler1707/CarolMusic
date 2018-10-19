@@ -13,6 +13,8 @@ function [] = PlayNote(freq, note, time_signature, bpm, rest)
     duration = 60/bpm;
 
     fs = 8e3;
+    
+    
     t = 0:1/fs:duration*note_mult;
     
     if rest == 1
@@ -20,6 +22,8 @@ function [] = PlayNote(freq, note, time_signature, bpm, rest)
         pause(duration*note_mult);
     
     elseif rest == 0
+        
+        pause(.005);
         sound(sin(2*pi*freq*t));
         pause(duration*note_mult);
     

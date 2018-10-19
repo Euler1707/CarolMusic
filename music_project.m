@@ -121,7 +121,7 @@ C8 = F(88);
 
 % Calculating Beats Per Minute Paramenters
 note = '1/8';
-bpm = 70;
+bpm = 100;
 time_signature = '3/4';
 
 
@@ -219,4 +219,30 @@ PlayNote(C5,'1/16', time_signature, bpm, 0)
 PlayNote(D5,'1/16', time_signature, bpm, 0)
 PlayNote(C5,'1/16', time_signature, bpm, 0)
 PlayNote(AsBf4,'1/16', time_signature, bpm, 0)
+%9
+PlayNote(A4,'1/8', time_signature, bpm, 0)
+PlayNote(D5,'1/16', time_signature, bpm, 0)
+PlayNote(C5,'1/16', time_signature, bpm, 0)
 
+PlayNote(B4,'1/16', time_signature, bpm, 0)
+PlayNote(C5,'1/16', time_signature, bpm, 0)
+PlayNote(B4,'1/16', time_signature, bpm, 0)
+PlayNote(A4,'1/16', time_signature, bpm, 0)
+
+PlayNote(G4,'1/16', time_signature, bpm, 0)
+PlayNote(A4,'1/16', time_signature, bpm, 0)
+PlayNote(G4,'1/16', time_signature, bpm, 0)
+PlayNote(F4,'1/16', time_signature, bpm, 0)
+% 10
+
+PlayNote(E4,'1/16', time_signature, bpm, 0)
+PlayNote(F4,'1/16', time_signature, bpm, 0)
+PlayNote(E4,'1/16', time_signature, bpm, 0)
+PlayNote(D4,'1/16', time_signature, bpm, 0)
+
+
+PlayNote(C4,'1/8', time_signature, bpm, 0)
+PlayNote(C5,'1/16', time_signature, bpm, 0)
+PlayNote(B5,'1/16', time_signature, bpm, 0)
+PlayNote(C5,'1/8', time_signature, bpm, 0)
+PlayNote(E4,'1/8', time_signature, bpm, 0)
